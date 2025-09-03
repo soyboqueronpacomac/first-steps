@@ -1,0 +1,32 @@
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.itemText {
+  width: 100px;
+}
+
+.itemBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #FAFAFA;
+  background: #4b04f1;
+}
+
+.itemBtn:hover{
+  opacity: 0.5;
+}
+
+.subtract{
+  background-color: red;
+} 
